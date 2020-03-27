@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { darken } from 'polished';
+import { PURPLE } from '../../styles/colors';
 
 export const ProductList = styled.ul`
   display: grid;
@@ -33,7 +34,7 @@ export const ProductList = styled.ul`
     }
 
     button {
-      background: #7159c1;
+      background: ${PURPLE};
       color: #fff;
       border: 0;
       border-radius: 4px;
@@ -43,9 +44,12 @@ export const ProductList = styled.ul`
       display: flex;
       align-items: center;
       transition: background 0.2s;
+
       &:hover {
-        background: ${darken(0.03, '#7159c1')};
+        /* Escurece 30% a cor do background do button */
+        background: ${darken(0.03, PURPLE)};
       }
+
       div {
         display: flex;
         align-items: center;
