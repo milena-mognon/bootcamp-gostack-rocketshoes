@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Logo RocketShoes" src="src/assets/images/logo.svg" width="300px" />
+    <img alt="Logo RocketShoes" src=".github/logo-gostack.png" width="300px" />
 </h1>
 
 ## 📋 Sobre
